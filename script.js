@@ -37,7 +37,7 @@ function btnS_Click()
 
 function btnK_Click()
 {
-    picplChose.src= "img/K.png";
+    picplChose.src= "img/KK.png";
     lblplChose.innerText = "کاغذ";
     
     resetAnimation();
