@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family: "B Nazanin";
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+body
+{
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100px; */
+    background:#cbdff6;
+    
+    
+}
+
+.main{
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background:#dde4f5;
+    box-shadow: 10px 5px 5px rgb(108, 131, 179);
+}
+
+#picPC_Choose{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    margin-top: 10ox;
+}
+
+#picPlayer_Choose
+{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+#btns{
+    width: 350px;
+    height: 350px;
+}
+
+#btnG
+{
+    border-radius: 5px;
+}
+
+@keyframes animeate
+{
+    /* 0%{transform: translateY(0) rotate(0);} */
+    /* 50%{transform: translateY(-300px) rotate(360deg);} */
+    /* 100%{transform: translateY(-100px) rotate(360deg);} */
+
+        0%{transform:rotate(0);}
+        30%{transform:rotate(360deg);}
+}
+
+@keyframes animeate1
+{
+    /* 0%{transform: translateY(0) rotate(0);} */
+    /* 50%{transform: translateY(-300px) rotate(360deg);} */
+    /* 100%{transform: translateY(-100px) rotate(360deg);} */
+
+        0%{transform: translateY(-0px) rotate(0); }
+        30%{transform:translateY(-120px) rotate(360deg);}
+}
+
+button:hover{
+    transition: 1s;
+    background-color: #b0d8ed;
+    cursor: pointer;
+}
+
+button{
+    transition: 1s;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 5px;
+}
+
+/* #btnK
+{
+    border-radius: 5px;
+}
+
+#btnS
+{
+    border-radius: 5px;
+} */
+
+#btnG #btnImage{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ #btnK #btnImage{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#btnS #btnImage{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper{
+        width: 90vmin;
+        height: 115vmin;
+    }
+
+    .game-details{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+
+    .controls{
+        display: flex;
+    }
+
+    .controls i{
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+}

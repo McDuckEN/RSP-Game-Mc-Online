@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family: "B Nazanin";
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+}
+
+body
+{
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100px; */
+    background:#9AC5F4;
+}
+
+/* label{
+    cursor: pointer;
+} */
+
+#picPC_Choose{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    margin-top: 10ox;
+}
+
+#picPlayer_Choose
+{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+#btns{
+    width: 350px;
+    height: 350px;
+}
+
+#btnG
+{
+    border-radius: 5px;
+}
+
+#btnK
+{
+    border-radius: 5px;
+}
+
+#btnS
+{
+    border-radius: 5px;
+}
+
+#btnG #btnImage{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ #btnK #btnImage{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#btnS #btnImage{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper{
+        width: 90vmin;
+        height: 115vmin;
+    }
+
+    .game-details{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+
+    .controls{
+        display: flex;
+    }
+
+    .controls i{
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+}

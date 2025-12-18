@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سنگ 🪨 ،  کاغذ📄 ،✂️ قیچی </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="direction:rtl;">
+
+    <center>
+        <br>
+        <h1 >سیستم :</h1>
+        <img id="picPC_Choose" src="img/none.png" alt="">
+        <h1 id="lblPC_Choose">...</h1>
+        <h1 id="lblPC_Score">امتیاز : 0</h1>
+
+        <br>
+        <hr>
+        <br>
+        
+        <h1>کاربر :</h1>
+        <img id="picPlayer_Choose" src="img/none.png" alt="">
+        <h1 id="lblPlayer_Choose">...</h1>
+        <h1 id="lblPlayer_Score">امتیاز : 0</h1>
+        <br>
+
+        <h3 id="lblmessage"></h3>
+
+        <br>
+        <div>
+            <label>قیچی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <label >کاغذ&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <label>سنگ</label>
+        </div>
+
+        <div id="btns">
+            <abbr title="قیچی">
+                <button id="btnG" onclick="btnG_Click()">
+                    <img id="btnImage" src="img/G.png" alt="قیچی">
+                </button>
+            </abbr>
+            <abbr title="کاغذ">
+                <button id="btnK" onclick="btnK_Click()">
+                    <img id="btnImage" src="img/K.png" alt="کاغذ">
+                </button>
+            </abbr>
+            <abbr title="سنگ">
+                <button id="btnS" onclick="btnS_Click()">
+                    <img id="btnImage" src="img/S.png" alt="سنگ">
+                </button>
+            </abbr>
+
+        </div>
+
+    </center>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
